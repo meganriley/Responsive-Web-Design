@@ -1,0 +1,111 @@
+/*
+Font colors:
+#6622CC Grape
+#A755C2 Deep Lilac
+#B07C9E English Lavender
+#B59194 Rosy Brown
+#D2A1B8 Light Medium Orchid
+*/
+
+/*
+Font styles:
+font-family: 'Questrial', sans-serif;
+font-family: 'Permanent Marker', cursive;
+*/
+
+/*
+Global Styles
+-----------------*/
+
+html {
+    box-sizing: border-box;
+}
+body {
+    background: #B07C9E;
+    margin: auto;
+}
+/*
+Heading
+-----------------*/
+#title {
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: #6622CC;
+    font-family: 'Permanent Marker', cursive;
+    max-width:1000px;
+}
+#description {
+    color: #6622CC;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+}
+
+/*
+Survey Form
+-----------------*/
+#survey-form {
+    background: #D2A1B8;
+    margin: auto;
+    color: #A755C2;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    max-width: 70%;
+    padding: 30px;
+}
+
+.col-narrow {
+    display: inline-block;
+    text-align: right;
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.col-wide {
+        display: inline-block;
+        text-align: left;
+        width: 48%;
+        vertical-align: top;
+        margin-bottom: 15px;
+}
+
+.col-narrow p {
+    display: inline;
+    padding: 10px;
+    text-align: right;
+}
+
+input[type=checkbox] {
+  vertical-align: middle;
+  float: left;
+}
+
+.col-wide label {
+  display: block;
+  overflow: hidden;
+  width: 200px;
+}
+
+
+
+/*
+Submit
+-----------------*/
+#submit {
+    font-family: 'Permanent Marker', cursive;
+    margin: 15px auto;
+    font-size: 22px;
+    width: 150px;
+    display: block;
+    padding: 2px;
+    background-color: #B59194;
+    color: #6622CC;
+    border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 90%;
+  }
+}
